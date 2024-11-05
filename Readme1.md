@@ -1,15 +1,15 @@
 # Table of contents
 
-- [[#Hand Chess Project|Hand Chess Project]]
-	- [[#Hand Chess Project#Description|Description]]
-	- [[#Hand Chess Project#Technologies Used|Technologies Used]]
-	- [[#Hand Chess Project#How to Run the Project|How to Run the Project]]
-		- [[#How to Run the Project#Note|Note]]
-	- [[#Hand Chess Project#Instructions for Use|Instructions for Use]]
-	- [[#Hand Chess Project#Version 1.0|Version 1.0]]
-		- [[#Version 1.0#Demo|Demo]]
-		- [[#Version 1.0#Notes|Notes]]
-	- [[#Hand Chess Project#License|License]]
+- [Hand Chess Project](#Hand%20Chess%20Project)
+	- [Description](#Description)
+	- [Technologies Used](#Technologies%20Used)
+	- [How to Run the Project](#How%20to%20Run%20the%20Project)
+		- [Note](#Note)
+	- [Instructions for Use](#Instructions%20for%20Use)
+	- [Version 1.0](#Version%201.0)
+		- [Demo](#Demo)
+		- [Notes](#Notes)
+	- [License](#License)
 
 # Hand Chess Project
 
