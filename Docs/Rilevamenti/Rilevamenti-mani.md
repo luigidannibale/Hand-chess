@@ -135,7 +135,7 @@ Mignolo - 0.364
 
 ---
 ## Distanza ~ 30 cm
-![][imgs/hand_landmark_20241108_125638.png]
+![](imgs/hand_landmark_20241108_125638.png)
 Distanza mcp-tip:
 Pollice - 0.190
 Indice - 0.318
@@ -145,7 +145,7 @@ Mignolo - 0.254
 
 ---
 ## Distanza ~ 40 cm
-![][imgs/hand_landmark_20241108_125645.png]
+![](imgs/hand_landmark_20241108_125645.png)
 Distanza mcp-tip:
 Pollice - 0.142
 Indice - 0.244
@@ -155,7 +155,7 @@ Mignolo - 0.196
 
 ---
 ## Distanza ~ 50 cm
-![][imgs/hand_landmark_20241108_125652.png]
+![](imgs/hand_landmark_20241108_125652.png)
 Distanza mcp-tip:
 Pollice - 0.124
 Indice - 0.201
@@ -165,7 +165,7 @@ Mignolo - 0.160
 
 ---
 ## Distanza ~ 60 cm
-![][imgs/hand_landmark_20241108_125659.png]
+![](imgs/hand_landmark_20241108_125659.png)
 Distanza mcp-tip:
 Pollice - 0.100
 Indice - 0.169
@@ -192,7 +192,7 @@ Mignolo - 0.131
 # Test 2
 Questi rilevamenti sono stati effettuati con la mano aperta frontalmente alla camera, a diverse distanze, con il monitor perpendicolare al terreno e la mano tendenzialmente parallela al monitor. Il test consiste nel rilevare le distanze percepite da mediapipe per
 ## Distanza ~ 20 cm
-![][imgs/hand_landmark_20241109_162818.png] 
+![](imgs/hand_landmark_20241109_162818.png) 
 Distanza mcp-tip: 
 Pollice - 0.239 
 Indice - 0.416 
@@ -202,7 +202,7 @@ Mignolo - 0.336
 
  --- 
 ## Distanza ~ 30 cm
-![][imgs/hand_landmark_20241109_163007.png] 
+![](imgs/hand_landmark_20241109_163007.png) 
 Distanza mcp-tip: 
 Pollice - 0.143 
 Indice - 0.257 
@@ -212,7 +212,7 @@ Mignolo - 0.196
 
  --- 
 ## Distanza ~ 40 cm
-![][imgs/hand_landmark_20241109_163037.png] 
+![](imgs/hand_landmark_20241109_163037.png) 
 Distanza mcp-tip: 
 Pollice - 0.128 
 Indice - 0.236 
@@ -222,7 +222,7 @@ Mignolo - 0.194
 
  --- 
 ## Distanza ~ 50 cm
-![][imgs/hand_landmark_20241109_163056.png] 
+![](imgs/hand_landmark_20241109_163056.png) 
 Distanza mcp-tip: 
 Pollice - 0.088 
 Indice - 0.175 
@@ -232,7 +232,7 @@ Mignolo - 0.133
 
  --- 
 ## Distanza ~ 60 cm
-![][imgs/hand_landmark_20241109_163115.png] 
+![](imgs/hand_landmark_20241109_163115.png) 
 Distanza mcp-tip: 
 Pollice - 0.079 
 Indice - 0.153 
@@ -259,7 +259,7 @@ Mignolo - 0.116
 # Test 3
 
 ## Distanza ~ 20 cm
-![][imgs/hand_landmark_20241109_164205.png] 
+![](imgs/hand_landmark_20241109_164205.png) 
 Distanza mcp-tip: 
 Pollice - 0.248 
 Indice - 0.429 
@@ -269,7 +269,7 @@ Mignolo - 0.339
 
  --- 
 ## Distanza ~ 30 cm
-![][imgs/hand_landmark_20241109_164212.png] 
+![](imgs/hand_landmark_20241109_164212.png) 
 Distanza mcp-tip: 
 Pollice - 0.169 
 Indice - 0.295 
@@ -279,7 +279,7 @@ Mignolo - 0.243
 
  --- 
 ## Distanza ~ 40 cm
-![][imgs/hand_landmark_20241109_164218.png] 
+![](imgs/hand_landmark_20241109_164218.png) 
 Distanza mcp-tip: 
 Pollice - 0.132 
 Indice - 0.238 
@@ -289,7 +289,7 @@ Mignolo - 0.197
 
  --- 
 ## Distanza ~ 50 cm
-![][imgs/hand_landmark_20241109_164224.png] 
+![](imgs/hand_landmark_20241109_164224.png) 
 Distanza mcp-tip: 
 Pollice - 0.107 
 Indice - 0.199 
@@ -299,7 +299,7 @@ Mignolo - 0.162
 
  --- 
 ## Distanza ~ 60 cm
-![][imgs/hand_landmark_20241109_164230.png] 
+![](imgs/hand_landmark_20241109_164230.png) 
 Distanza mcp-tip: 
 Pollice - 0.080 
 Indice - 0.162 
@@ -326,7 +326,7 @@ Mignolo - 0.134
 # Test 4
 
 ## Distanza ~ 20 cm
-![][imgs/hand_landmark_20241109_164946.png] 
+![](imgs/hand_landmark_20241109_164946.png) 
 Distanza mcp-tip: 
 Pollice - 0.225 
 Indice - 0.394 
@@ -336,7 +336,7 @@ Mignolo - 0.314
 
  --- 
 ## Distanza ~ 30 cm
-![][imgs/hand_landmark_20241109_164952.png] 
+![](imgs/hand_landmark_20241109_164952.png) 
 Distanza mcp-tip: 
 Pollice - 0.153 
 Indice - 0.275 
@@ -346,7 +346,7 @@ Mignolo - 0.222
 
  --- 
 ## Distanza ~ 40 cm
-![][imgs/hand_landmark_20241109_164958.png] 
+![](imgs/hand_landmark_20241109_164958.png) 
 Distanza mcp-tip: 
 Pollice - 0.123 
 Indice - 0.223 
@@ -356,7 +356,7 @@ Mignolo - 0.181
 
  --- 
 ## Distanza ~ 50 cm
-![][imgs/hand_landmark_20241109_165002.png] 
+![](imgs/hand_landmark_20241109_165002.png) 
 Distanza mcp-tip: 
 Pollice - 0.100 
 Indice - 0.184 
@@ -366,7 +366,7 @@ Mignolo - 0.148
 
  --- 
 ## Distanza ~ 60 cm
-![][imgs/hand_landmark_20241109_165009.png] 
+![](imgs/hand_landmark_20241109_165009.png) 
 Distanza mcp-tip: 
 Pollice - 0.083 
 Indice - 0.157 
@@ -392,7 +392,7 @@ Mignolo - 0.127
 # Test 5
 
 ## Distanza ~ 20 cm
-![][imgs/hand_landmark_20241109_165421.png] 
+![](imgs/hand_landmark_20241109_165421.png) 
 Distanza mcp-tip: 
 Pollice - 0.215 
 Indice - 0.377 
@@ -402,7 +402,7 @@ Mignolo - 0.303
 
  --- 
 ## Distanza ~ 30 cm
-![][imgs/hand_landmark_20241109_165427.png] 
+![](imgs/hand_landmark_20241109_165427.png) 
 Distanza mcp-tip: 
 Pollice - 0.142 
 Indice - 0.261 
@@ -412,7 +412,7 @@ Mignolo - 0.206
 
  --- 
 ## Distanza ~ 40 cm
-![][imgs/hand_landmark_20241109_165434.png] 
+![](imgs/hand_landmark_20241109_165434.png) 
 Distanza mcp-tip: 
 Pollice - 0.114 
 Indice - 0.217 
@@ -422,7 +422,7 @@ Mignolo - 0.178
 
  --- 
 ## Distanza ~ 50 cm
-![][imgs/hand_landmark_20241109_165442.png] 
+![](imgs/hand_landmark_20241109_165442.png) 
 Distanza mcp-tip: 
 Pollice - 0.091 
 Indice - 0.174 
@@ -432,7 +432,7 @@ Mignolo - 0.141
 
  --- 
 ## Distanza ~ 60 cm
-![][imgs/hand_landmark_20241109_165445.png] 
+![](imgs/hand_landmark_20241109_165445.png) 
 Distanza mcp-tip: 
 Pollice - 0.076 
 Indice - 0.151 
@@ -458,7 +458,7 @@ Mignolo - 0.123
 # Test 6
 
 ## Distanza ~ 20 cm
-![][imgs/hand_landmark_20241109_165747.png] 
+![](imgs/hand_landmark_20241109_165747.png) 
 Distanza mcp-tip: 
 Pollice - 0.231 
 Indice - 0.385 
@@ -468,7 +468,7 @@ Mignolo - 0.309
 
  --- 
 ## Distanza ~ 30 cm
-![][imgs/hand_landmark_20241109_165754.png] 
+![](imgs/hand_landmark_20241109_165754.png) 
 Distanza mcp-tip: 
 Pollice - 0.148 
 Indice - 0.258 
@@ -478,7 +478,7 @@ Mignolo - 0.209
 
  --- 
 ## Distanza ~ 40 cm
-![][imgs/hand_landmark_20241109_165757.png] 
+![](imgs/hand_landmark_20241109_165757.png) 
 Distanza mcp-tip: 
 Pollice - 0.119 
 Indice - 0.214 
@@ -488,7 +488,7 @@ Mignolo - 0.179
 
  --- 
 ## Distanza ~ 50 cm
-![][imgs/hand_landmark_20241109_165801.png] 
+![](imgs/hand_landmark_20241109_165801.png) 
 Distanza mcp-tip: 
 Pollice - 0.101 
 Indice - 0.183 
@@ -498,7 +498,7 @@ Mignolo - 0.151
 
  --- 
 ## Distanza ~ 60 cm
-![][imgs/hand_landmark_20241109_165805.png] 
+![](imgs/hand_landmark_20241109_165805.png) 
 Distanza mcp-tip: 
 Pollice - 0.083 
 Indice - 0.158 
