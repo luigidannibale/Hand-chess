@@ -1,45 +1,74 @@
 import pygame
 import chess
+import os
 
-# Carica le immagini dei pezzi
-PIECE_IMAGES = {}
-for piece in ['P', 'R', 'N', 'B', 'Q', 'K', 'p', 'r', 'n', 'b', 'q', 'k']:
-    PIECE_IMAGES[piece] = pygame.image.load(f"src/pieces/{piece}.png")
-
-def draw_board(win):
-    colors = [pygame.Color(235, 235, 208), pygame.Color(119, 148, 85)]
+class BoardSquare:
+    def __init__(self, square, col, row):
+        self.square = square
+        self.col = col
+        self.row = row
     
-    square_size = 80
+    @staticmethod
+    def from_coordinates(x, y, square_size=80):
+        """Crea un oggetto BoardSquare dai pixel x e y."""
+        if 0 <= x < square_size * 8 and 0 <= y < square_size * 8:
+            row, col = (7 - y // square_size), x // square_size
+            square = chess.square(col, row)
+            return BoardSquare(square, col, row)
+        return None  # Coordinate fuori dalla scacchiera
+
+    @staticmethod
+    def to_coordinates(square, square_size=80):
+        """Converte una casella in coordinate pixel (x, y)."""
+        col = chess.square_file(square)
+        row = 7 - chess.square_rank(square)  # Scacchiera orientata verso il bianco
+        return col * square_size, row * square_size
+
+    def __repr__(self):
+        return f"BoardSquare(square={self.square}, col={self.col}, row={self.row})"
+
+def draw_board(win, square_size=80):
+    light_color = pygame.Color(235, 235, 208)  # Colore chiaro
+    dark_color = pygame.Color(119, 148, 85)   # Colore scuro
+    colors = [light_color, dark_color]
+    
     for row in range(8):
         for col in range(8):
             color = colors[(row + col) % 2]
             pygame.draw.rect(win, color, pygame.Rect(col * square_size, row * square_size, square_size, square_size))
+
     
-
-
-def draw_board_with_highlight(win, highlight_col, highlight_row, highlight_type):
+def draw_board_with_highlight(win, highlight_col=None, highlight_row=None, highlight_color=(0, 204, 0), square_size=80):
     # Disegna la scacchiera
-    draw_board(win)
+    draw_board(win, square_size)
     
-    # Definisci i colori per ciascun tipo di evidenziazione
-    colors = {
-        "selection": pygame.Color(200, 150, 90),  # Colore per la selezione
-        "move": pygame.Color(200, 200, 60)        # Colore per la mossa
-    }
-    
-    # Determina il colore in base al tipo di evidenziazione
-    highlight_color = colors.get(highlight_type, pygame.Color(255, 255, 255))  # Default a bianco se non valido
-    
-    # Disegna il rettangolo evidenziato, se le coordinate sono fornite
+    # Evidenzia una casella specifica, se le coordinate sono valide
     if highlight_col is not None and highlight_row is not None:
-        square_size = 80
-        pygame.draw.rect(win, highlight_color, pygame.Rect(highlight_col * square_size, highlight_row * square_size, square_size, square_size))
+        if 0 <= highlight_col < 8 and 0 <= highlight_row < 8:
+            pygame.draw.rect(win, highlight_color, pygame.Rect(
+                highlight_col * square_size, 
+                (7 - highlight_row) * square_size, 
+                square_size, 
+                square_size
+            ))
 
-def draw_pieces(win, board):
-    square_size = 80
+def draw_pieces(win, board, square_size=80, white=True):
+    """Disegna i pezzi sulla scacchiera."""
     for square in chess.SQUARES:
         piece = board.piece_at(square)
         if piece:
-            x = (square % 8) * square_size
-            y = (7 - square // 8) * square_size
+            col = chess.square_file(square)
+            row = chess.square_rank(square) if not white else (7 - chess.square_rank(square))
+            x, y = col * square_size, row * square_size
             win.blit(PIECE_IMAGES[piece.symbol()], pygame.Rect(x, y, square_size, square_size))
+
+
+PIECE_IMAGES = {}
+PIECE_PATH = "src/pieces/"
+
+try:
+    for piece in ['P', 'R', 'N', 'B', 'Q', 'K', 'p', 'r', 'n', 'b', 'q', 'k']:
+        PIECE_IMAGES[piece] = pygame.image.load(os.path.join(PIECE_PATH, f"{piece}.png"))
+except FileNotFoundError as e:
+    print(f"Errore: Impossibile trovare l'immagine del pezzo: {e}")
+    exit()
