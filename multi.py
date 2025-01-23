@@ -4,13 +4,12 @@ import cv2
 import threading
 import queue
 import os
+import time
+import chess.pgn
 
 from hand_tracker import HandTracker
 from hand_tracker import _get_board_layer
 
-import time
-import chess.pgn
-#from Xlib import X, display
 
 
 # class CountdownTimerThread:
@@ -358,7 +357,7 @@ def hand_tracking_thread(cap, tracker, data_queue, stop_event, board_size=640, s
         
         frame = cv2.resize(frame, (frame_width, frame_height))
         frame = tracker.process_frame(frame)
-        frame = cv2.addWeighted(frame, 1, board_layer, 1, 0)
+        #frame = cv2.addWeighted(frame, 1, board_layer, 1, 0)
 
         if tracker.hand_landmarks:            
             x = int(tracker.hand_landmarks.landmark[8].x * frame_height)  # Indice
@@ -590,7 +589,7 @@ if __name__ == "__main__":
         exit()
 
     PIECE_IMAGES = {}
-    PIECE_PATH = "src/pieces/"
+    PIECE_PATH = "img/pieces/"
     
     SETTINGS = {
         "width": 800,  # Larghezza aumentata per includere la barra laterale
